@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Brian Lundell's Site
+title: Brian Lundell
 email: brianslundell@gmail.com
 description: A site all about Brian
 baseurl: # the optional subpath of your site, e.g. "/blog"
