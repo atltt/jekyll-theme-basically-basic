@@ -29,3 +29,14 @@
     {% endif %}
   {% endif %}
 {% endif %}
+
+  {% if author.linkedin %}
+    {% assign author_linkedin = author.linkedin %}
+  {% else %}
+    {% if site.data.authors and site.data.authors[author] %}
+      {% assign author_twitter = site.data.authors[author].twitter %}
+    {% else %}
+      {% assign author_linkedin = site.linkedin_username %}
+    {% endif %}
+  {% endif %}
+{% endif %}
